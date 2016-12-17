@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles-rsses on Sick Yoon</title>
+    <link>https://sickyoon.github.io/articles/index.xml</link>
+    <description>Recent content in Articles-rsses on Sick Yoon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sick Yoon</copyright>
+    <lastBuildDate>Sun, 11 Dec 2016 23:27:09 +0900</lastBuildDate>
+    <atom:link href="https://sickyoon.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deploy MongoDB using Docker</title>
+      <link>https://sickyoon.github.io/articles/deploy_mongodb_using_docker/</link>
+      <pubDate>Sun, 11 Dec 2016 23:27:09 +0900</pubDate>
+      
+      <guid>https://sickyoon.github.io/articles/deploy_mongodb_using_docker/</guid>
+      <description>
+
+&lt;h1 id=&#34;test-environment&#34;&gt;Test Environment&lt;/h1&gt;
+
+&lt;p&gt;Setting up MongoDB using docker to behave as your native installation, we just have to ensure corresponding volumes and ports are mapped correctly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker pull mongo
+docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

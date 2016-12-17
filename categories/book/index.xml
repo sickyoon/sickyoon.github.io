@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sick Yoon</title>
+    <link>https://sickyoon.github.io/categories/book/index.xml</link>
+    <description>Recent content on Sick Yoon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sick Yoon</copyright>
+    <atom:link href="https://sickyoon.github.io/categories/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dark Money</title>
+      <link>https://sickyoon.github.io/books/dark-money/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sickyoon.github.io/books/dark-money/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51iovoTj2JL._SX328_BO1,204,203,200_.jpg&#34; alt=&#34;Dark Money&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this book, Jane Mayer describes the dark money behind US politics, mainly infamous Koch brothers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

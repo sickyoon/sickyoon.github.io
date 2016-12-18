@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/sickyoon.com/</loc>
+    <loc>/</loc>
     <lastmod>2016-12-11T23:27:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/sickyoon.com/post/deploy_mongodb_using_docker/</loc>
+    <loc>/post/deploy_mongodb_using_docker/</loc>
     <lastmod>2016-12-11T23:27:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/sickyoon.com/projects/</loc>
+    <loc>/projects/</loc>
   </url>
   
   <url>
-    <loc>/sickyoon.com/resources/</loc>
+    <loc>/resources/</loc>
   </url>
   
   <url>
-    <loc>/sickyoon.com/about/</loc>
+    <loc>/about/</loc>
   </url>
   
 </urlset>

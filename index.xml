@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sickyoon.com</title>
-    <link>sickyoon.com/index.xml</link>
+    <link>/index.xml</link>
     <description>Recent content on sickyoon.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>sick.yoon@gmail.com (Sick Yoon)</webMaster>
     <copyright>(c) 2016 Sick Yoon.</copyright>
     <lastBuildDate>Sun, 11 Dec 2016 23:27:09 +0900</lastBuildDate>
-    <atom:link href="sickyoon.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deploy MongoDB using Docker</title>
-      <link>/sickyoon.com/post/deploy_mongodb_using_docker/</link>
+      <link>/post/deploy_mongodb_using_docker/</link>
       <pubDate>Sun, 11 Dec 2016 23:27:09 +0900</pubDate>
       <author>sick.yoon@gmail.com (Sick Yoon)</author>
-      <guid>/sickyoon.com/post/deploy_mongodb_using_docker/</guid>
+      <guid>/post/deploy_mongodb_using_docker/</guid>
       <description>
 
 &lt;h1 id=&#34;test-environment&#34;&gt;Test Environment&lt;/h1&gt;
@@ -32,10 +32,10 @@ docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
     
     <item>
       <title>Projects</title>
-      <link>/sickyoon.com/projects/</link>
+      <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>sick.yoon@gmail.com (Sick Yoon)</author>
-      <guid>/sickyoon.com/projects/</guid>
+      <guid>/projects/</guid>
       <description>&lt;h3&gt;&lt;a href=&#34;https://github.com/sickyoon&#34;&gt;&lt;i class=&#34;fa fa-fw fa-github&#34;&gt;&lt;/i&gt; github.com/sickyoon&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -46,10 +46,10 @@ docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
     
     <item>
       <title>Resources</title>
-      <link>/sickyoon.com/resources/</link>
+      <link>/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>sick.yoon@gmail.com (Sick Yoon)</author>
-      <guid>/sickyoon.com/resources/</guid>
+      <guid>/resources/</guid>
       <description>
 
 &lt;p&gt;Articles that I find interesting &amp;hellip;&lt;/p&gt;
@@ -83,10 +83,10 @@ docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
     
     <item>
       <title>Who am I?</title>
-      <link>/sickyoon.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>sick.yoon@gmail.com (Sick Yoon)</author>
-      <guid>/sickyoon.com/about/</guid>
+      <guid>/about/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://avatars0.githubusercontent.com/u/24367477?v=3&amp;amp;s=130&#34; alt=&#34;Profile&#34; /&gt;&lt;/p&gt;

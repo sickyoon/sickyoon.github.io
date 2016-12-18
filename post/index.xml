@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post-rsses on sickyoon.com</title>
-    <link>sickyoon.com/post/index.xml</link>
+    <link>/post/index.xml</link>
     <description>Recent content in Post-rsses on sickyoon.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>sick.yoon@gmail.com (Sick Yoon)</webMaster>
     <copyright>(c) 2016 Sick Yoon.</copyright>
     <lastBuildDate>Sun, 11 Dec 2016 23:27:09 +0900</lastBuildDate>
-    <atom:link href="sickyoon.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deploy MongoDB using Docker</title>
-      <link>/sickyoon.com/post/deploy_mongodb_using_docker/</link>
+      <link>/post/deploy_mongodb_using_docker/</link>
       <pubDate>Sun, 11 Dec 2016 23:27:09 +0900</pubDate>
       <author>sick.yoon@gmail.com (Sick Yoon)</author>
-      <guid>/sickyoon.com/post/deploy_mongodb_using_docker/</guid>
+      <guid>/post/deploy_mongodb_using_docker/</guid>
       <description>
 
 &lt;h1 id=&#34;test-environment&#34;&gt;Test Environment&lt;/h1&gt;

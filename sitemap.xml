@@ -2,26 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sickyoon.github.io/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sickyoon.github.io/books/dark-money/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sickyoon.github.io/articles/deploy_mongodb_using_docker/</loc>
+    <loc>/sickyoon.com/</loc>
     <lastmod>2016-12-11T23:27:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sickyoon.github.io/about/</loc>
+    <loc>/sickyoon.com/post/deploy_mongodb_using_docker/</loc>
+    <lastmod>2016-12-11T23:27:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sickyoon.github.io/resources/</loc>
+    <loc>/sickyoon.com/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/sickyoon.com/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>/sickyoon.com/about/</loc>
   </url>
   
 </urlset>

@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>404 Page not found  &middot; sickyoon.com</title>
+  <title>Deploy MongoDB using Docker  &middot; sickyoon.com</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -17,19 +17,47 @@
 <meta name="keywords" content="">
 
 
-<meta property="og:title" content="404 Page not found  &middot; sickyoon.com ">
+<meta property="og:title" content="Deploy MongoDB using Docker  &middot; sickyoon.com ">
 <meta property="og:site_name" content="sickyoon.com"/>
-<meta property="og:url" content="sickyoon.com/404/" />
+<meta property="og:url" content="/sickyoon.com/post/deploy_mongodb_using_docker/" />
 <meta property="og:locale" content="en-us">
 
 
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2016-12-11T23:27:09&#43;09:00" />
+<meta property="og:article:modified_time" content="2016-12-11T23:27:09&#43;09:00" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Deploy MongoDB using Docker" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/sickyoon.com/post/deploy_mongodb_using_docker/" />
+<meta name="twitter:domain" content="/sickyoon.com/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Deploy MongoDB using Docker",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2016-12-11",
+    "description": "",
+    "wordCount":  38 
+  }
+</script>
 
 
 
-<link href="sickyoon.com/404.html/index.xml" rel="alternate" type="application/rss+xml" title="404 Page not found" />
-
-<link rel="canonical" href="sickyoon.com/404/" />
+<link rel="canonical" href="/sickyoon.com/post/deploy_mongodb_using_docker/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
 <link href="/favicon.png" rel="icon">
@@ -117,9 +145,6 @@
 
 
 
-<a id="contact-link-rss" class="contact_link" href="sickyoon.com/404.html/index.xml" type="application/rss+xml">
-  <span class="fa fa-rss-square"></span><span>rss</span></a>
-
 
 
 </div>
@@ -130,12 +155,58 @@
 </header>
 
 
-<article id="main-content" class="container main_content error_404">
-  <h1>404 Not found</h1>
-  <p>What you&#39;re looking for isn&#39;t here, sorry!</p>
-  <p><a href="/sickyoon.com/">&larr; Click here to go back home</a></p>
-</article>
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Deploy MongoDB using Docker
+</h1>
 
+  <div class="metas">
+<time datetime="2016-12-11">11 Dec, 2016</time>
+
+
+  
+  &middot; Read in about 1 min
+  &middot; (38 Words)
+  <br>
+  
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<h1 id="test-environment">Test Environment</h1>
+
+<p>Setting up MongoDB using docker to behave as your native installation, we just have to ensure corresponding volumes and ports are mapped correctly.</p>
+
+<pre><code class="language-bash">docker pull mongo
+docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
+</code></pre>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+
+</div>
+
+</footer>
+
+</article>
       <footer id="main-footer" class="container main_footer">
   
 

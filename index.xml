@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sick Yoon</title>
-    <link>https://sickyoon.github.io/index.xml</link>
-    <description>Recent content on Sick Yoon</description>
+    <title>sickyoon.com</title>
+    <link>sickyoon.com/index.xml</link>
+    <description>Recent content on sickyoon.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Sick Yoon</copyright>
-    <lastBuildDate>Thu, 15 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sickyoon.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Dark Money</title>
-      <link>https://sickyoon.github.io/books/dark-money/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://sickyoon.github.io/books/dark-money/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51iovoTj2JL._SX328_BO1,204,203,200_.jpg&#34; alt=&#34;Dark Money&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this book, Jane Mayer describes the dark money behind US politics, mainly infamous Koch brothers.&lt;/p&gt;
-</description>
-    </item>
+    <managingEditor>sick.yoon@gmail.com (Sick Yoon)</managingEditor>
+    <webMaster>sick.yoon@gmail.com (Sick Yoon)</webMaster>
+    <copyright>(c) 2016 Sick Yoon.</copyright>
+    <lastBuildDate>Sun, 11 Dec 2016 23:27:09 +0900</lastBuildDate>
+    <atom:link href="sickyoon.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deploy MongoDB using Docker</title>
-      <link>https://sickyoon.github.io/articles/deploy_mongodb_using_docker/</link>
+      <link>/sickyoon.com/post/deploy_mongodb_using_docker/</link>
       <pubDate>Sun, 11 Dec 2016 23:27:09 +0900</pubDate>
-      
-      <guid>https://sickyoon.github.io/articles/deploy_mongodb_using_docker/</guid>
+      <author>sick.yoon@gmail.com (Sick Yoon)</author>
+      <guid>/sickyoon.com/post/deploy_mongodb_using_docker/</guid>
       <description>
 
 &lt;h1 id=&#34;test-environment&#34;&gt;Test Environment&lt;/h1&gt;
@@ -41,24 +31,87 @@ docker run --name mongo -p 27017:27017 -v /data/db:/data/db -d mongo:latest
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://sickyoon.github.io/about/</link>
+      <title>Projects</title>
+      <link>/sickyoon.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sickyoon.github.io/about/</guid>
-      <description>&lt;p&gt;Sick Yoon&lt;/p&gt;
+      <author>sick.yoon@gmail.com (Sick Yoon)</author>
+      <guid>/sickyoon.com/projects/</guid>
+      <description>&lt;h3&gt;&lt;a href=&#34;https://github.com/sickyoon&#34;&gt;&lt;i class=&#34;fa fa-fw fa-github&#34;&gt;&lt;/i&gt; github.com/sickyoon&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;gopher and python enthusiast from Canada&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/gocelery/gocelery&#34; target=&#34;_blank&#34;&gt;gocelery, Celery distributed task queue in Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>https://sickyoon.github.io/resources/</link>
+      <link>/sickyoon.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sickyoon.github.io/resources/</guid>
-      <description></description>
+      <author>sick.yoon@gmail.com (Sick Yoon)</author>
+      <guid>/sickyoon.com/resources/</guid>
+      <description>
+
+&lt;p&gt;Articles that I find interesting &amp;hellip;&lt;/p&gt;
+
+&lt;h4 id=&#34;programming&#34;&gt;Programming&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.golangbootcamp.com/&#34; target=&#34;_blank&#34;&gt;Go Bootcamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/22892120/how-to-generate-a-random-string-of-a-fixed-length-in-golang#31832326&#34; target=&#34;_blank&#34;&gt;Generate Random String&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;Security&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://sid.rstack.org/arp-sk/&#34; target=&#34;_blank&#34;&gt;arp-sk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;companies-services&#34;&gt;Companies/Services&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://clarifai.com&#34; target=&#34;_blank&#34;&gt;clarifai&lt;/a&gt; - image recognition api&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;events&#34;&gt;Events&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.impactcentre.ca/e100/&#34; target=&#34;_blank&#34;&gt;U of T Impact Centre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Who am I?</title>
+      <link>/sickyoon.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sick.yoon@gmail.com (Sick Yoon)</author>
+      <guid>/sickyoon.com/about/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://avatars0.githubusercontent.com/u/24367477?v=3&amp;amp;s=130&#34; alt=&#34;Profile&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;gopher and python enthusiast from Canada. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello, my name is Sick Yoon and I am software engineer interested in building scalable web services. &lt;br&gt;
+I am an author of &lt;a href=&#34;https://github.com/gocelery/gocelery&#34; target=&#34;_blank&#34;&gt;gocelery&lt;/a&gt;, Celery distributed task queue in Go. &lt;br&gt;
+I love participating in open source projects and building scalable web services. &lt;br&gt;
+On my spare time, you can usually find me riding on my motorcycle or building pedals for electric guitar.&lt;/p&gt;
+
+&lt;h4 id=&#34;experiences&#34;&gt;Experiences&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IBM Compose&lt;/li&gt;
+&lt;li&gt;Republic of Korea Cyber Command&lt;/li&gt;
+&lt;li&gt;Advanced Micro Devices Inc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;notable-projects&#34;&gt;Notable Projects&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gocelery/gocelery&#34; target=&#34;_blank&#34;&gt;gocelery, Celery distributed task queue in Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
